@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom'
-import Blogpage from './pages/blogpage.jsx'
+import Blogpage from './pages/Interviews.jsx'
 console.log('Running app.jsx')
 
 const router = createBrowserRouter([
