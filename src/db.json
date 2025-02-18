@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Kristina Larkin",
+      "description": ".",
+      "videoUrl1": "../src/assets/Kristina Larkin/test.mp4",
+      "videoUrl2": "../src/assets/Kristina Larkin/video1993477213.mp4"
+    },
+    {
+      "id": 2,
+      "title": "Sheila Rogers",
+      "description": "Former community activist",
+      "videoUrl1": "../src/assets/Sheila Rogers/video1988750432.mp4",
+      "videoUrl2": "../src/assets/Sheila Rogers/video1818066566.mp4"
+    },
+    {
+      "id": 3,
+      "title": "Aaron Chubb",
+      "description": "First founding board member",
+      "videoUrl1": "../src/assets/Aaron Chubb/video1827888734.mp4",
+      "videoUrl2": "../src/assets/Aaron Chubb/video1457340941.mp4"
+    },
+    {
+      "id": 4,
+      "title": "Jen Takahashi",
+      "description": "The LPIRG ED, furious activist",
+      "videoUrl1": "../src/assets/Pirate Jen Takahashi/video1034534588.mp4",
+      "videoUrl2": "../src/assets/Pirate Jen Takahashi/video1916065816.mp4"
+    }
+]  
