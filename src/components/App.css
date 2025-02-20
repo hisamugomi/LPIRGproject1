@@ -1,66 +1,9 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-
-/* Timeline.css */
-.timeline-container {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-}
-
-.timeline-title {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.timeline {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.timeline-item {
-  background: #f4f4f4;
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 5px;
-  width: 60%;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.timeline-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.timeline-year {
-  font-size: 20px;
-  font-weight: bold;
-  color: #333;
-}
-
-.timeline-event {
-  font-size: 16px;
-  color: #666;
-}
-
-
-/* Timelines.css */
-
 
 * {
   margin: 0;
@@ -70,18 +13,50 @@
 
 /* Set a background color */
 body {
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
+  background-color: #e5e6e1;
+  font-family: "dm sans", sans-serif;
+  color: black;
 }
 
-/* The actual timeline (the vertical ruler) */
-.timelines {
+.div-introtolpirg {
+  background-color: #9ba99a;
+  padding: 0%;
+  padding-bottom: 1rem;
+  font-size: 30px;
+  
+  font-family: young serif, serif;
+}
+
+.div-histoflpirg {
+
+  padding: 0%;
+  padding-top: 1rem;
+  padding-bottom: rem;
+  font-size: 20px;
+  
+  font-family: young serif, serif;
+}
+
+.timelinebar {
+  left: 50%;
+  position: absolute;
+  width: 3px;
+  height: 1300px;
+  background-color: olivedrab;
+  justify-content: center;
+}
+.timelinebar2 {
+  left: 50%;
+  width: 3px;
+  height: 100px;
+  background-color: olivedrab;
+  justify-content: center;
   position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+  z-index: 0;
 }
 
-/* The actual timeline (the vertical ruler) */
+
+
 .timelines::after {
   content: '';
   position: absolute;
